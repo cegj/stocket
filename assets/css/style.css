@@ -66,3 +66,14 @@ h2 {
     color: #ececec;
     background-color: var(--main-color);
 }
+
+.monitored-stock-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.monitored-stock {
+    display: flex;
+    justify-content: space-between;
+}
