@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+html {
+    --main-color: #00304d;
+    --main-bg-color: #F2F2F2;
+}
+body, p {
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    font-family: "Inter", sans-serif;
+}
+
+header {
+    padding: 10px;
+    background-color: var(--main-color);
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+}
+
+.logo {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 3rem;
+    color: #e6e6e6;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 50px 10%;
+    gap: 30px;
+}
+
+.top-bar, .box {
+    background-color: var(--main-bg-color);
+    padding: 30px;
+}
+
+.top-bar{
+    grid-column: 1 / -1;
+    display: flex;
+    justify-content: space-between;    
+}
+
+.top-bar-section {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.box-operation {
+    color: #ececec;
+    background-color: var(--main-color);
+}
